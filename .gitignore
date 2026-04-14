@@ -1,0 +1,6 @@
+.env.local
+.env
+node_modules
+vscode-extension/node_modules
+*.vsix
+.DS_Store

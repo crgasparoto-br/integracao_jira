@@ -1,0 +1,13 @@
+{
+  "name": "integracao_jira",
+  "private": true,
+  "version": "0.1.1",
+  "type": "module",
+  "description": "CLI e extensao VS Code para operar Jira Cloud por projeto.",
+  "scripts": {
+    "jira": "node scripts/jira-cli.mjs",
+    "jira:check": "node scripts/jira-cli.mjs check",
+    "jira:plan": "node scripts/jira-cli.mjs plan:apply",
+    "extension:package": "npm --prefix vscode-extension run package"
+  }
+}
